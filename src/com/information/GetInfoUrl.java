@@ -25,6 +25,8 @@ public class GetInfoUrl {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
+			
 		}
 		String url_list = Json_tool.creatJsonString("url_list", list);
 		System.out.println(url_list);
